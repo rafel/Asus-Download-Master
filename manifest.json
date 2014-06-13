@@ -1,0 +1,49 @@
+{
+  "name": "Asus download master",
+  "description": "Asus download master plugin for chrome",
+  "icons": { "128": "image/icon.png", "16":"image/buttonIcon.png"},
+  "version": "1.0",
+  "author": "Rafel Saad, Sam Sam",
+  "homepage_url": "https://github.com/rafel/Asus-Download-Master/",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["js/jquery-1.10.2.min.js","js/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [ {
+    "js": [ "js/jquery-1.10.2.min.js", "js/background.js" ],
+    "matches": [ "http://*/*", "https://*/*"]
+  }],
+  "browser_action": {
+    "default_title": "Downloads",
+	"default_icon": "image/icon.png",
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    "http://*/*",
+    "js/jquery-1.10.2.min.js",
+    "js/table/jquery-1.10.2.min.js",
+    "js/table/jquery-1.10.2.min.js",
+    "style/table/jquery-ui.css",
+    "style/table/dataTables.jqueryui.css",
+    "js/table/media/js/jquery.js",
+    "js/table/media/js/jquery.dataTables.js",
+    "js/table/dataTables.jqueryui.js",
+    "popup.js",
+    "js/style.css",
+    "image/ok.gif",
+    "image/no.gif",
+    "image/loading.gif",
+    "image/icon.png",
+    "image/buttonIcon.png"
+  ],
+    "permissions": [
+      "http://*/*",
+    "storage"
+  ],
+  "options_page": "options.html",
+  "manifest_version": 2
+}

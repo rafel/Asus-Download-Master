@@ -1,0 +1,132 @@
+A:link		{text-decoration: none; color:#1a54a6; }
+A:visited	{text-decoration: none; color:#1a54a6;}
+A:active	{text-decoration: none; color:#000;}
+A:hover		{text-decoration: none; color:#000;}
+body.popup {
+	background:#efefef;
+	font-size:12px;
+	width:650px;
+}
+body.optionPage{
+	padding:0;
+	margin: 0;
+	background:#fff;
+}
+#nav{
+	position: fixed;
+	left: 0;
+	width: 160px;
+	height: 100%;
+	padding-top: 15px;
+	background-color: #FFF;
+	background-color: #F7F7F7;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #E3E3E3;
+	z-index: 1;
+	top:0;
+	font-size:12px;
+}
+#nav h2{
+	color: #444;
+	font-weight:normal;
+	text-align:center;
+}
+#content{
+	margin-left:180px;
+}
+.optionPage h1:first-child {
+margin-top: 20px;
+}
+.optionPage h1{
+	color: #444;
+margin-top: 10px;
+margin-left: -10px;
+font-size: 24px;
+font-weight: normal;
+line-height: 1;
+font-family: 'Open Sans', sans-serif;
+}
+.optionPage hr:first-of-type {
+margin-bottom: 30px;
+}
+.optionPage hr {
+margin: 10px 0 10px -15px;
+border-top-color: #E3E3E3;
+border-top-style: solid;
+border-width: 1px 0 0 0;
+}
+.optionPage label {
+color: #444;
+font-size: 20px;
+display: block;
+margin: 20px 0 5px 0px;
+}
+
+.optionPage .simple-form {
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	color: #666;
+	height: 20px;
+	margin-bottom: 5px;
+}
+.optionPage .simple-form:focus {
+	outline: none;
+    border: 1px solid #527fd4;   /* sexy hot pink */
+    border:1px solid #56b4ef;box-shadow:inset 0 1px 3px rgba(0,0,0,0.05),0 0 8px rgba(82,168,236,0.6)
+}
+.optionPage input.button{
+	color: #fff;
+	background-color: #55acee;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.05));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#0C000000)";
+	border: 1px solid #3b88c3;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	border-radius: 5px;
+	padding: 5px;
+	min-width: 75px;
+	height: 30px;
+	display: block;
+	margin-top: 40px;
+}
+input.button:hover , input.button:focus{
+	color: #fff;
+	background-color: #56b4ef;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.05));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#0C000000)";
+	outline:none;
+}
+.simple-form.username {
+	width: 280px;
+}
+.simple-form.password {
+	width: 172px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	font-size:12px;
+}
+#downloadList tbody{
+	font-size:10px;
+}
+
+ .ui-progressbar {
+    position: relative;
+  }
+  .progress-label {
+    position: absolute;
+    left: 45%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  .bodyrows td{
+	 max-width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  }
+  .bodyrows td.progress{
+  	,max-width:200px;
+	width:200px;
+}
