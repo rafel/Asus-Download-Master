@@ -1,7 +1,8 @@
 #Asus Download Master
 
 <b>Features</b><br />
-
+![Alt text](/image/routerdownlads.png?raw=true "Download list")
+![Alt text](/image/routermagnet.png?raw=true "Router magnet")
 
 <b>How to install</b><br />
 - Navigate to chrome://extensions
